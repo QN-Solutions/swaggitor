@@ -1,0 +1,32 @@
+{
+  "name": "swaggitor",
+  "version": "0.1.0",
+  "description": "A simple server hosting the swagger-editor.",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development node ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QN-Solutions/swaggitor.git"
+  },
+  "keywords": [
+    "swagger-editor",
+    "swagger"
+  ],
+  "author": "Christian Kuhn <c.kuhn@qn-solutions.de> (http://www.qn-solutions.de)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QN-Solutions/swaggitor/issues"
+  },
+  "homepage": "https://github.com/QN-Solutions/swaggitor#readme",
+  "dependencies": {
+    "config": "^1.21.0",
+    "config.json": "0.0.4",
+    "connect": "^3.4.1",
+    "path": "^0.12.7",
+    "serve-static": "^1.11.1",
+    "util": "^0.10.3"
+  }
+}

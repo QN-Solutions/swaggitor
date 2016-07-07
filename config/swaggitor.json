@@ -1,0 +1,11 @@
+{
+    "swagger_path": "/api/",
+    "main_swagger_file": "swagger.yaml",
+    "save_path": "/editor/spec",
+    "load_path": "/editor/spec",
+    "config_path": "/config/defaults.json",
+    "editor_path": "node_modules/swagger-editor/",
+    "hostname": "localhost",
+    "directory": "/",
+    "port": 10012
+}
